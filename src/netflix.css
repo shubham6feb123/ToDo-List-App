@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(213, 235, 227);
+    padding: 5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+  padding: 75px;
+}
+
+.cards{
+    margin:10px 0px;
+}
+.cards img{
+    width: 260px;
+    height: 385px;
+}
+
+.card_info{
+    text-align: center;
+}
+

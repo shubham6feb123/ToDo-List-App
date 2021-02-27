@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+/* header section */
+.header {
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo {
+  margin: 5px 0px 5px 16px;
+}
+
+.heading {
+  margin: 11px 0 0 3px;
+  font-family: serif;
+  color: white;
+  font-weight: bolder;
+}
+
+/* footer section */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+/* create note section */
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 2px;
+}
+.main_note {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 12px;
+    width: 25vw;
+    height: 35vh;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 32px -7px #00000099;
+    /* position: absolute;
+    top: 86px; */
+}
+
+form{
+    margin: 6px 0px 0px 4px
+}
+
+.input_field{
+    outline: none;
+    display: block;
+    background: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 10px 0px 13px 6px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.textarea_field{
+    background: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    margin: 5px 8px 4px 8px;
+    text-transform: capitalize;
+}
+
+button{
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 66px;
+    position: absolute; 
+}
+
+/* note section */
+
+.note_section{
+    width: 100vw;
+    margin-bottom: 10px;
+    display: grid;
+    /* align-items: center; */
+    place-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr );
+    grid-row-gap: 12px;
+}
+.note{
+    width: 20vw;
+    padding: 11px;
+    margin: 0px 0px 0px 1px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 32px -7px #00000099;
+    border-radius: 10px;
+    /* position: relative;
+    top: 68px; */
+}
+
+.note h1{
+    text-align: center;
+}
+
+.note p{
+    padding: 12px;
+    text-align: center;
+}
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(3, 6, 48);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    /* line-height:30px; */
+}
+
+a{
+    text-decoration: none;
+}
+.active_link{
+    color: antiquewhite;
+    border-bottom: 2px solid red;
+    padding: 12px 0px;
+}
+
+h1{
+    padding: 32px;
+}
+
+p{
+    padding: 32px;
+}
+
+.search_div{
+    text-align: center;
+    padding:45px;
+}
+
+.search_div input{
+    background-color: darkgray;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #728871;
+}
+
+.image_section img{
+    width: 50%;
+    margin-top: 40px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin: 30px;
+    color: yellow;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    background-image: linear-gradient(to right bottom,white,black,grey);
+    text-align: center;
+    border-radius: 12px ;
+    color: green;
+    font-weight: bolder;
+    box-shadow: 3px 3px 5px 2px gray ;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.submit{
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
